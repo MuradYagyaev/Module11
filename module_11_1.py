@@ -52,7 +52,6 @@ with open('data.txt', mode='r', encoding='utf8') as file:
 df1 = pd.DataFrame(line_d)
 print(df1)  # Вывод таблицы
 print(df1[df1['D'] > 18])   # Вывод строк, где D > 18
-print('sdsdsd')
 print(df1.head(2))  # Вывод 2-х строк от начала
 print(df1.tail(3))  # Вывод 3-х строк от конца
 print(df1.index)    # Вывод индексов таблицы
